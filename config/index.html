@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Beatriz Tinini - Violinista</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Caminho correto para o CSS -->
+</head>
+<body>
+    <header>
+        <h1>Ana Beatriz Tinini - Violinista</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#instagram">Instagram</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Ana é uma violinista talentosa com anos de experiência...</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <div class="galeria">
+            <img src="images/image1.jpg" alt="Performance 1">
+            <img src="images/image2.jpg" alt="Performance 2">
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="whatsapp">WhatsApp:</label>
+            <input type="whatsapp" id="whatsapp" name="whatsapp" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ana Beatriz Tinini. Todos os direitos reservados.</p>
+        <p>&copy; By - Heitor Lima</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

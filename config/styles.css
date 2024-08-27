@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow: auto; /* Certifique-se de permitir o scroll */
+}
+
+html {
+    height: 100%; /* Permite que o corpo ocupe toda a altura da tela */
+}
+
+.content {
+    min-height: 100vh; /* Faz com que o conteúdo ocupe pelo menos a altura da janela */
+    padding-bottom: 50px; /* Espaçamento adicional para o rodapé */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as imagens quebrem linha */
+    justify-content: space-around;
+    gap: 10px; /* Adiciona espaçamento entre as imagens */
+}
+
+.galeria img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    /* position: fixed; Removido para evitar problemas de sobreposição */
+    /* bottom: 0; */
+    width: 100%;
+}
